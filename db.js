@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const mongoURI = "mongodb://127.0.0.1:27017/CWH";
+const mongoURI = "mongodb+srv://mayurmunje9:mmavenger9@cluster0.xgirilj.mongodb.net/";
 
 async function connectToMongo() {
     await mongoose.connect(mongoURI)
